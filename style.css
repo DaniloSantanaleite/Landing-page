@@ -1,21 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
-nav{
-
-    height:30px;
+header nav{
+    padding: 15px 10px;
+    background-image: linear-gradient(90deg,rgba(203, 15, 228, 0.877),rgba(202, 9, 9, 0.795),rgba(0, 0, 0, 0.747));
     text-align: center;
-    background-color: rgb(109, 109, 177);
-    
 }
 
-ul li{
+nav ul li{
     display: inline;
-    justify-content: space-between;
- 
+    padding: 10px;
+
 }
 
+ul li a{
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.644);
+   padding: 0px;
+   font-family: "Jost", sans-serif;
+   
+}
 
+@media (max-width:500px){
+    header nav{
+        text-align: left;
+    }
+}
