@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+
+    height:30px;
+    text-align: center;
+    background-color: rgb(109, 109, 177);
+    
+}
+
+ul li{
+    display: inline;
+    justify-content: space-between;
+ 
+}
+
+
